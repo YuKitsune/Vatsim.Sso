@@ -12,6 +12,11 @@ PM> Install-Package Vatsim.Sso
 
 Here is an example of using the library within an ASP.NET application.
 ```cs
+using Vatsim.Sso;
+using Vatsim.Sso.Responses;
+
+...
+
 public ActionResult Login()
 {
     // Set the base url (Use "http://sso.hardern.net/server/api/" for testing and development)
