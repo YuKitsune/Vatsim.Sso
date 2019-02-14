@@ -1,4 +1,4 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	using Newtonsoft.Json;
 
