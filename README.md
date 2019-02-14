@@ -1,7 +1,7 @@
 # Vatsim.Sso
-## A .NET Standard implementation of VATSIM SSO (Single Sign On).
+### A .NET Standard implementation of VATSIM SSO (Single Sign On).
 
-### Example Usage
+## Example Usage
 
 ```cs
 public ActionResult Login()
