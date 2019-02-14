@@ -3,8 +3,14 @@ A .NET Standard implementation of VATSIM SSO (Single Sign On). Originally create
 
 ![](https://img.shields.io/nuget/dt/Vatsim.Sso.svg?style=flat)
 
-## Example Usage
+## Installation
+```
+PM> Install-Package Vatsim.Sso
+```
 
+## Usage Example
+
+Here is an example of using the library within an ASP.NET application.
 ```cs
 public ActionResult Login()
 {
