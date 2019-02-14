@@ -1,5 +1,6 @@
 # Vatsim.Sso
 A .NET Standard implementation of VATSIM SSO (Single Sign On).
+
 ![](https://img.shields.io/nuget/dt/Vatsim.Sso.svg?style=flat)
 
 ## Example Usage
