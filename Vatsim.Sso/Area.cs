@@ -1,4 +1,4 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	/// <summary>
 	/// 	The area received from VATSIM SSO.

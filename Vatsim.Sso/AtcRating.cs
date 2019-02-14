@@ -1,9 +1,9 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	/// <summary>
 	/// 	The ATC Rating received from VATSIM SSO.
 	/// </summary>
-	public class ATCRating
+	public class AtcRating
 	{
 		/// <summary>
 		/// 	Gets or sets the identifier.

@@ -1,4 +1,4 @@
-﻿namespace Vatsim.ApiResponses.Sso
+﻿namespace Vatsim.Sso.Responses
 {
 	/// <summary>
 	///		The response status from VATSIM SSO.

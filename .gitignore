@@ -1,0 +1,10 @@
+
+\.idea/
+
+Vatsim\.Sso/bin/
+
+Vatsim\.Sso/obj/
+
+*.user
+
+._*.*

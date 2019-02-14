@@ -1,4 +1,4 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	/// <summary>
 	/// 	The Pilot Rating received from VATSIM SSO.

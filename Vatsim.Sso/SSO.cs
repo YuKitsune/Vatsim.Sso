@@ -1,4 +1,4 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	using System;
 	using System.IO;
@@ -8,7 +8,7 @@
 	using Newtonsoft.Json;
 	using Newtonsoft.Json.Converters;
 
-	using Vatsim.ApiResponses.Sso;
+	using Vatsim.Sso.Responses;
 
 	/// <summary>
 	/// 	The VATSIM SSO communication class.

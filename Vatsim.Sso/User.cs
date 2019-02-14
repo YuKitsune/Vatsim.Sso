@@ -1,4 +1,4 @@
-﻿namespace Vatsim
+﻿namespace Vatsim.Sso
 {
 	using System;
 
@@ -38,7 +38,7 @@
 		/// 	Gets or sets the <see cref="Vatsim.ATCRating"/>.
 		/// </summary>
 		[JsonProperty("Rating")]
-		public ATCRating ATCRating { get; set; }
+		public AtcRating ATCRating { get; set; }
 
 		/// <summary>
 		/// 	Gets or sets the <see cref="Vatsim.PilotRating"/>

@@ -1,4 +1,4 @@
-﻿namespace Vatsim.Responses
+﻿namespace Vatsim.Sso.Responses
 {
 	/// <summary>
 	/// 	The VATSIM SSO API response interface.

@@ -1,4 +1,4 @@
-﻿namespace Vatsim.ApiResponses.Sso
+﻿namespace Vatsim.Sso.Responses
 {
 	using Newtonsoft.Json;
 
