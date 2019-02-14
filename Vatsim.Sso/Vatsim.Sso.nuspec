@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Vatsim.Sso</id>
+    <version>1.1.0</version>
+    <authors>Eoin Motherway</authors>
+    <owners>Eoin Motherway</owners>
+    <licenseUrl>https://github.com/EoinAviation/Vatsim.Sso/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/EoinAviation/Vatsim.Sso</projectUrl>
+    <!--<iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>-->
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>.NET Implementation of VATSIM Single Sign On.</description>
+    <releaseNotes>Initial release of Vatsim.Sso.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>VATSIM Vatsim SSO Sso OAuth</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.1" />
+      <dependency id="OAuth" version="1.0.3" />
+    </dependencies>
+  </metadata>
+</package>

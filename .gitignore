@@ -8,3 +8,5 @@ Vatsim\.Sso/obj/
 *.user
 
 ._*.*
+
+*.nupkg
