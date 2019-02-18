@@ -1,5 +1,5 @@
 # Vatsim.Sso
-A .NET Standard implementation of VATSIM SSO (Single Sign On). Originally created by @andrewogden1678, however, the project has since died. This library will aim to be as up to date as possible.
+A .NET Standard implementation of VATSIM SSO (Single Sign On). Originally created by @andrewogden1678, however, the project has since died. This library aims to heavily simplify Andrews inital implementation, and build on his original work.
 
 ![](https://img.shields.io/nuget/dt/Vatsim.Sso.svg?style=flat)
 
