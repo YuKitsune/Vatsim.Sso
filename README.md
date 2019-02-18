@@ -23,7 +23,7 @@ public ActionResult Login()
     Sso.SetBaseUrl("https://cert.vatsim.net/sso/api/");
     
     // Get the token
-    TokenResponse res = Vatsim.Sso.GetRequestToken("myConsumerKey", "myConsumerSecret", this.Url.Action("LoginReturnAsync", "Account", null, Uri.UriSchemeHttps));
+    TokenResponse res = Sso.GetRequestToken("myConsumerKey", "myConsumerSecret", this.Url.Action("LoginReturnAsync", "Account", null, Uri.UriSchemeHttps));
     
     // Store the token secret in a session
     HttpContext.Session.SetString("TokenSecret", res.Token.TokenSecret);
@@ -41,8 +41,8 @@ public async Task<ActionResult> LoginReturnAsync(string oauth_token, string oaut
     string secret = HttpContext.Session.GetString("TokenSecret");
     
     // Get the user details
-	Vatsim.Sso.SetBaseUrl("https://cert.vatsim.net/sso/api/");
-	UserResponse res = Vatsim.Sso.GetUserData("myConsumerKey", "myConsumerSecret", "https://cert.vatsim.net/sso/api/", oauth_verifier, oauth_token, secret);
+	Sso.SetBaseUrl("https://cert.vatsim.net/sso/api/");
+	UserResponse res = Sso.GetUserData("myConsumerKey", "myConsumerSecret", "https://cert.vatsim.net/sso/api/", oauth_verifier, oauth_token, secret);
 
 	// Todo: Process the user accordingly
 }
